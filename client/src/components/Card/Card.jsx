@@ -20,7 +20,7 @@
 //       <h4 className={style.pokemonAttack}>Attack: {attack}</h4> 
 //     </div>
 //   );
-// }
+// } este es un pequeño cambio para git
 
 import React from "react";
 import style from './Card.module.css';
