@@ -1,0 +1,61 @@
+/* SearchBar.module.css */
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2; /* Fondo claro para la barra de búsqueda */
+  }
+  
+  .barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Ajusta esto según tus necesidades */
+  }
+  
+  .input {
+    flex-grow: 1; /* Ocupa todo el espacio disponible */
+    padding: 10px;
+    margin-right: 10px; /* Espacio entre el input y el botón */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Remueve el borde al enfocar */
+  }
+  
+  .input:focus {
+    border-color: #007bff; /* Cambia el color del borde al enfocar */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color primario para el botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+  }
+  
+  .btn:disabled {
+    background-color: #cccccc; /* Color gris cuando está deshabilitado */
+    cursor: default;
+  }
+
+  .btn:active{
+    background-color: #004085;
+    color: #ccc;
+  }
+  
+  .error {
+    color: #ff0000; /* Color rojo para mensajes de error */
+    margin-top: 10px; /* Espacio entre el mensaje de error y la barra de búsqueda */
+    text-align: center;
+  }
+  

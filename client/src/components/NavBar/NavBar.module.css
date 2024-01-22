@@ -1,0 +1,55 @@
+/* NavBar.module.css */
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  /* .logo {
+    width: 50px; /* Ajusta esto según el tamaño de tu logo */
+    /* margin-right: 20px; */
+  /* } */ 
+  logo{
+    display: flex;
+    width: auto;
+    position:relative;
+    height: 90px;
+
+}
+  
+  .navLinks {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn:active{
+    background-color: #004085;
+    color: #ccc;
+  }
+  

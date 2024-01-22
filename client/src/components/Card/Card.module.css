@@ -1,0 +1,57 @@
+
+/* .pokemonCard {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px; 
+    width: calc(20% - 40px);
+    margin: 40px;
+    } */
+    
+    .pokemonCard {
+      box-sizing: border-box; /* Incluye el padding y el borde en el cálculo del ancho */
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.2); 
+      backdrop-filter: blur(10px); 
+      border: 10px solid rgba(255, 255, 255, 0.3); 
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70%; /* Ya no necesitas restar el borde si usas border-box */
+      margin: 10px;
+  }
+  
+  
+    .pokemonName {
+      margin-top: 10px;
+    font-size: 20px;
+    }
+  
+    .pokemonAttack {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    
+    
+  
+    .pokemonTypes {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    
+    .pokemonImg {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+  
+  
